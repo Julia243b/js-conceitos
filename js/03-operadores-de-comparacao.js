@@ -5,24 +5,26 @@
 // Lógica de boole
 
 /* 
-    operadores mais comuns:
+    operadores de comparação mais comuns:
     > - maior que
     < - menor que
     >= maior ou igual
     <= menor ou igual
     
-    == igualdade 
+    == Igualdade 
     ( nome do " = " é chamado de 'atribuição')
 */
 let numero = 5;
-let numero2 = "5";  //é uma string "" ou ''
-let numero3 = 7;
+let numero2 = "5";  
+const numero3 = 7;
+//é uma string "" ou ''
 
 // > - maior que
-console.log(numero > numero3); //false ou true
+console.log(numero > numero3); 
+//false ou true
 
 // < - menor que
-console.log(numero < numero);
+console.log(numero < numero3);
 
 // >= maior ou igual
 console.log(5 >= 7);
@@ -30,14 +32,15 @@ console.log(5 >= 7);
 // <= menor ou igual
 console.log(9 <= 9);
 
-// == igualdade
+// == Igualdade
 console.log(10 == 10);
 
-// == igualdade - Compara os valores, e não o TIPO DE DADO do elemento 
-console.log(10 == "10"); // "10" é uma string
+// == Igualdade - Compara os valores, e não o TIPO DE DADO do elemento 
+console.log(10 == "10"); 
+// "10" é uma string
 
 
-// outros operadores de comparação
+// Outros operadores de comparação
 // === Igualdade escrita - Analisa o TIPO DE DADO e o VALOR do elemento
 // != Diferente
 // !== Diferente estrito
