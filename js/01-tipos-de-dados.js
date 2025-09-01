@@ -14,7 +14,7 @@ const decimal = 41.81234567890;
 const numeroNegativo = -7;
 
 // Listando com Boolean - lógica booleana(verdadeiro ou falso)
-let estalogado = false;
+let estaLogado = false;
 let podeTransferir = true;
 
 // Lidando com Undefined - indefinido. Quando uma variavel não possui valor
