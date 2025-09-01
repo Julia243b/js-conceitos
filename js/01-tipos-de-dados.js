@@ -10,7 +10,7 @@ let email = 'jul@gmail.com';
 
 // Lidando com number - números. Existe um limite de aproximadamente 2^53 -1 (dois elevado a potência 53)
 const banco = 1234567890;
-const decimal = 41.823456;
+const decimal = 41.81234567890;
 const numeroNegativo = -7;
 
 // Listando com Boolean - lógica booleana(verdadeiro ou falso)
@@ -35,10 +35,5 @@ let simbolo2 = Symbol("id"); /* cfe91128-f2cf-4b5d-a050-cc32eaf7fd77 */
 
 // Lidando com BigInt - Para lidar com numeros gigantescos. Muito bom para analise de dados complexos
 
-let numeroGrande = 9007199254740992182371928731273010273n
-
-// bit é a menor unidade de informação digital 0 ou 1.
-
-
-
+let numeroGrande = 9007199254740992182371928731273010273n;
 
