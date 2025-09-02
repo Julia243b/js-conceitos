@@ -32,6 +32,7 @@ if(idade >= 18) {
 }
 
 // condicional encadeada
+// Quando queremos analisar mais de uma condição
 if(idade > 18) {
     console.log("Maior de idade");
 } else if (idade <=35) {
