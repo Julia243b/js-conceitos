@@ -3,7 +3,12 @@
 
 /* 
  sintaxe básica do switch
- break - serve para parar a executação
+
+ case - os cases(caso) são as condicionais que serão executadas caso ela corresponda com a expressão/condição do switch
+
+ break - serve para parar a execução do código  caso a condição seja atendida. Todos os cases devem ter um brak
+
+ default - Só será executado caso nenhuma condição seja atendida
 
  switch(expressão/condição){
   case valor1: 
@@ -20,9 +25,10 @@
 
 // exemplo de switch com dias da semana
 
-let dia = 4;
+// altere o valor da variavel dia e veja o switch em ação
+let diaDaSemana = 4;
 
-switch(dia) {
+switch(diaDaSemana) {
     case 1:
         console.log("domingo");
         break;
@@ -53,11 +59,20 @@ switch(dia) {
 
 
 // exemplo de switch com operações matemáticas
+
+// para ver o switch em ação, experimente alterar o de operação para ver o resultado no console do navegador
+// Lembre-se de conectar esse arquivo a index.html
+
+// operadores disponiveis:
+//soma +
+// subtração -
+// multiplicação *
+// divisão /
 let operacao = "+";
 let a = 10;
 let b = 5;
 
-switch(operacao){
+switch(operacao) {
     case "+":
         console.log(a + b);
         break;
@@ -73,7 +88,7 @@ switch(operacao){
     case "/":
         console.log(a / b);
         break;
-    
+
     default:
         console.log("Operação inválida");
 }
