@@ -41,3 +41,19 @@ if(idade > 18) {
     console.log("Não sei quem é você");
 }
 
+const banana = "banana";
+console.log(banana);
+
+
+// Exemplo de condicional encadeada - avaliando notas
+let nota = 5;
+
+if (nota >= 9) {
+    console.log("Excelente");
+} else if (nota >= 7) {
+    console.log("Bom")
+} else if (nota >= 5) {
+    console.log("Regular");
+} else {
+    console.log("Reprovado");
+}
