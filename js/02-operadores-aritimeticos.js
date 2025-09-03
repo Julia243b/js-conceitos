@@ -31,6 +31,7 @@ console.log(typeof divisao);
 
 // Outros operadores aritiméticos
 // Exponênciação ou pontenciação ( ** )
+// Módulo ( % )
 
 // Exemplo de exponênciação ou pontenciação
 const numero3 = 5;
