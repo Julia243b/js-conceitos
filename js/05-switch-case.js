@@ -64,10 +64,11 @@ switch(diaDaSemana) {
 // Lembre-se de conectar esse arquivo a index.html
 
 // operadores disponiveis:
-//soma +
+// soma +
 // subtração -
 // multiplicação *
 // divisão /
+// exponênciação ou pontenciação ( ** )
 let operacao = "+";
 let a = 10;
 let b = 5;
@@ -87,6 +88,10 @@ switch(operacao) {
     
     case "/":
         console.log(a / b);
+        break;
+
+    case "**":
+        console.log(a ** b);
         break;
 
     default:
