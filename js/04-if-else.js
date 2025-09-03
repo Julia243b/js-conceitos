@@ -5,40 +5,43 @@
 
  // condicional simples
  if(condição){
-  caso a condição seja verdadeira, exevuta tudo aqui dentro
+  caso a condição seja verdadeira, executa tudo aqui dentro
  }
 
-
- // condicional composta
- if(idade >= 18) {
+ if(condição) {
     console.log("Você é maior de idade.");
 } else {
     console.log("Você é menor de idade");
 }
+
+else - senão (se a condição não for atentida, executa o código dentro do else. Ele é executado por último caso nenhuma condição seja atendida)
+
 */
 
-let idade = 17;
+let idade = 18;
 
 // condicional simples
-if (idade>= 18) {
-  console.log("Você é maior de idade.");
-}
+// if (idade >= 18) {
+//  console.log("Você é maior de idade.");
+// }
 
-//Condicional composta
-if(idade >= 18) {
-    console.log("Você é maior de idade.");
-} else {
-    console.log("Você é menor de idade");
-}
+// Condicional composta
+// if(idade >= 18) {
+//  console.log("Você é maior de idade.");
+// } else {
+//  console.log("Você é menor de idade");
+// }
 
 // condicional encadeada
 // Quando queremos analisar mais de uma condição
-if(idade > 18) {
-    console.log("Maior de idade");
-} else if (idade <=35) {
-    console.log("Menor de idade");
+if (idade > 18) {
+    console.log("Você é um jovem");
+} else if (idade > 35) {
+    console.log("Você é um adulto");
+} else if (idade > 60) {
+    console.log("Você é um idoso");
 } else {
-    console.log("Não sei quem é você");
+    console.log("Você é uma criança, não deveria estar aqui!");
 }
 
 const banana = "banana";
