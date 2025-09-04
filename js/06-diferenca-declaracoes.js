@@ -10,6 +10,7 @@ var x = 10;
 // let y = "banana";
 
 if (true) {
+    var x = 10;
     // let e const são escopo de bloco
     //ou seja, só existe dentro do bloco if, para acessar o valor, depende do contexto onde ele está inserido
     const z = 30;
