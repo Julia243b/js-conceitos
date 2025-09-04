@@ -1,11 +1,11 @@
-/* Laços(Loops) de repetição permitem executar um bloco de código várias vezes, de forma controlada.
+/* 
+Laços(Loops) de repetição permitem executar um bloco de código várias vezes, de forma controlada.
 
-  Isso EVITA repetição manual de código e é essencial para automatizar terefas.
+Isso EVITA repetição manual de código e é essencial para automatizar terefas.
 
-  Os laços mais comuns são: for, while, do while
+Os laços mais comuns são: for, while, do while
 
 */
-
 
 // conhecendo o FOR - para
 // É o laço de repetição mais comum. Geralmente ele é usado quando sabemos eexatamente quantas vezes queremos repetir algo.
@@ -15,15 +15,17 @@ for(inicialização; condição; incremento){
 // bloco de código que vai ser executado
 } 
 
+    i = index/indice
     ++ operador de incremento
     -- operador de decremento
-*/
+    i++ --> i = i +1 soma padrão
 
+*/
 for (let i = 0 ; i < 5 ; i++) {
    console.log("Olá");
 }
 
-for (let i = 0 ; i <= 5 ; i++) {
+for (let i = 0 ; i <= 20; i++) {
    console.log("Contagem:", i);
 }
 
@@ -44,23 +46,3 @@ for (let j = 5; j >= 0; j--) {
         console.log ("Falta pouco...");
     }
 }
-
-// while - enquanto
-// Geralmente é usado quando NÃO sabemos quantas vezes algo será repetido
-
-/* 
-
-whie (condição) {
-    // bloco de código que var ser executado enquanto a condição for verdadeira
-}
-
-só para de ser executado quando a condição for falsa
-*/
-
-// loops infinito
-/* let contador = 0;
-
-while (condition) {
-  console.log("Deu ruim", contador);
-} 
-*/
